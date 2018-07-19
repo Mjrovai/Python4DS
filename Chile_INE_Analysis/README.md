@@ -1,7 +1,7 @@
 <h1> Analisis de la situacion laboral en Chile</h1>
 <h2> Concepto y critérios de medicón</h2>
 El siguiente esquema conceptual, muestra las grandes categorías en que se clasifica la población, para fines del análisis de la condición laboral. La Nueva Encuesta Nacional de Empleo se aplica a todas las personas de 15 años o más, las cuales constituyen la población en edad de trabajar (PET) en Chile. Las personas a quienes se aplica el cuestionario, pueden quedar clasificadas como ocupadas, desocupadas o inactivas, categorías mutuamente excluyentes.
-<img src="ine_concepto.jpg">
+<img src="ine_concepto.png">
 <h2> Dataset</h2>
 El dataset utilizado en este trabajo será primariamente dados (raw data) obtenidos desde la base de datos de la "Encuesta Nacional de Empleo (ENE)", desarrollada por el INE (Instituto Nacional de Estatisticas - Chile):
 <p>
