@@ -7,6 +7,7 @@ El siguiente esquema conceptual, muestra las grandes categorías en que se clas
 La base de datos es compuesta de datos amostrales, siendo que la muestra total se distribuye en un periodo trimestral, dividiéndose en tres submuestras de un tamaño aproximadamente similar, cada una de las cuales se asigna en forma sistemática a uno de los tres meses del trimestre móvil. De esta forma se generan tres submuestras, una para cada mes, las cuales cada una por sí sola no presentan la precisión suficiente para todos los niveles de estimación.
 <br><br>
 Con esta distribución, cada vivienda encuestada en el mes “t” vuelve a ser encuestada en el mes “t+3” y a su vez, cada vivienda de la muestra es encuestada una vez por trimestre. Así, las estimaciones de un trimestre “t” se calculan con la información correspondiente a los meses “t-1”, “t” y “t+1”.
+<p><a href="cuestionario-ene-informalidad-2017.pdf"cuestionario-ene-informalidad-2017.pdf></a></p>
 <br><br>
 Este trabajo llevará en consideracíon multiplos trimestres, procurando una vision del cenário laboral chileno de los últimos 18 meses. 
 
@@ -31,7 +32,10 @@ El Jupyter Notebook utilizado para la conversion puede ser encontrado abajo:
 <h3> Otros datasets</h3
 La idéa será concatenar multiplos trimestres de la base del INE juntamente con otros datos tales como:
 <p> Situación de empleo en otros paises de la America Latina </p>
+Vide Notebook Preliminar: 
+<a href="https://github.com/Mjrovai/Python4DS/blob/master/IMF%20-%20World%20Economic%20Outlook/IMF-WEO_DS_Analysis_LATAM.ipynb">IMF-WEO_DS_Analysis_LATAM.ipynb</a>
 <p> Datos socio economicos de Chile</p>
+A ser analisado. 
 
 <h2>Librerias</h2>
 <h3> Principales librerias Python a seren utilizadas en el trabajo:</h3>
