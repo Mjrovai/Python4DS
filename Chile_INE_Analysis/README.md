@@ -7,7 +7,10 @@ El siguiente esquema conceptual, muestra las grandes categorías en que se clas
 La base de datos es compuesta de datos amostrales, siendo que la muestra total se distribuye en un periodo trimestral, dividiéndose en tres submuestras de un tamaño aproximadamente similar, cada una de las cuales se asigna en forma sistemática a uno de los tres meses del trimestre móvil. De esta forma se generan tres submuestras, una para cada mes, las cuales cada una por sí sola no presentan la precisión suficiente para todos los niveles de estimación.
 <br><br>
 Con esta distribución, cada vivienda encuestada en el mes “t” vuelve a ser encuestada en el mes “t+3” y a su vez, cada vivienda de la muestra es encuestada una vez por trimestre. Así, las estimaciones de un trimestre “t” se calculan con la información correspondiente a los meses “t-1”, “t” y “t+1”.
-<p><a href="cuestionario-ene-informalidad-2017.pdf"cuestionario-ene-informalidad-2017.pdf></a></p>
+<br>
+<p> Mas informaciones:</p>
+<p><a href="cuestionario-ene-informalidad-2017.pdf">cuestionario-ene-informalidad-2017.pdf</a></p>
+<p><a href="manual_metodologico031110.pdf>manual_metodologico031110.pdf</a></p>
 <br><br>
 Este trabajo llevará en consideracíon multiplos trimestres, procurando una vision del cenário laboral chileno de los últimos 18 meses. 
 
