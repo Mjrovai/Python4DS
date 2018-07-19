@@ -41,7 +41,7 @@ NumPy
 MatPlotLib
 </pre>
 <h2> Analices preliminares (borradores) por trimestres moviles publicados en 2018</h2>
-<a href="ENE_01_2018.ipynb">ENE_01_2018.ipynb</a>
-<a href="ENE_02_2018.ipynb">ENE_01_2018.ipynb</a>
-<a href="ENE_03_2018.ipynb">ENE_01_2018.ipynb</a>
-<a href="ENE_04_2018.ipynb">ENE_01_2018.ipynb</a>
+<p><a href="ENE_01_2018.ipynb">ENE_01_2018.ipynb</a></p>
+<p><a href="ENE_02_2018.ipynb">ENE_01_2018.ipynb</a></p>
+<p><a href="ENE_03_2018.ipynb">ENE_01_2018.ipynb</a></p>
+<p><a href="ENE_04_2018.ipynb">ENE_01_2018.ipynb</a></p>
