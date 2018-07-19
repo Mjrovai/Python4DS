@@ -1,5 +1,5 @@
 <h1> Analisis de la situacion laboral en Chile</h1>
-<h2> Objectivo del trabajo<h2>
+<h2> Objectivo del trabajo</h2>
 Analisar los resultados de la Encusta Nacional de Empleos, cruzando los mismos con datos socio-economicos tanto de encusta misma cuantos externos, procurando entender lo que pasa al trabajador chileno. 
 <h2> Concepto y critérios de medicón</h2>
 El siguiente esquema conceptual, muestra las grandes categorías en que se clasifica la población, para fines del análisis de la condición laboral. La Nueva Encuesta Nacional de Empleo se aplica a todas las personas de 15 años o más, las cuales constituyen la población en edad de trabajar (PET) en Chile. Las personas a quienes se aplica el cuestionario, pueden quedar clasificadas como ocupadas, desocupadas o inactivas, categorías mutuamente excluyentes.
@@ -10,7 +10,7 @@ Con esta distribución, cada vivienda encuestada en el mes “t” vuelve a ser
 <br>
 <p> Mas informaciones:</p>
 <p><a href="cuestionario-ene-informalidad-2017.pdf">cuestionario-ene-informalidad-2017.pdf</a></p>
-<p><a href="manual_metodologico031110.pdf>manual_metodologico031110.pdf</a></p>
+<p><a href="manual_metodologico031110.pdf">manual_metodologico031110.pdf</a></p>
 <br><br>
 Este trabajo llevará en consideracíon multiplos trimestres, procurando una vision del cenário laboral chileno de los últimos 18 meses. 
 
