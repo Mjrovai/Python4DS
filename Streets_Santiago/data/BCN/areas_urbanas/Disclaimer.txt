@@ -1,0 +1,6 @@
+DISCLAIMER
+
+El presente material sólo constituye una representación cartográfica vectorial que ha sido liberada en función del principio de transparencia, y bajo ninguna circunstancia debe ser considerado como una publicación oficial del Estado de Chile.
+La información entregada es resultado de la recopilación de cartografía vectorial surgida de diferentes fuentes, y responden al estado de la data al año 2008, 2009, y en algunos casos 2010. La actualización de esta información depende únicamente de la disponibilidad de actualización de los mismos datos, aun cuando no existe una periodicidad establecida para tales efectos.
+El presente material sólo posee carácter referencial, y bajo ninguna circunstancia debería ser utilizado para realizar trabajos que requieran precisión geodésica.
+Los datos entregados por SIIT-BCN que se refieran o relacionen con los límites y fronteras de Chile NO comprometen en modo alguno al Estado de Chile, de acuerdo a lo señalado en el DFL-83 del año 1979.
