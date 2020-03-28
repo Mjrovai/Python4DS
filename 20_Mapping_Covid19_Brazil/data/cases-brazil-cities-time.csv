@@ -1,0 +1,725 @@
+date,country,state,city,newCases,totalCases
+2020-02-25,Brazil,SP,São Paulo/SP,1,1
+2020-02-25,Brazil,TOTAL,TOTAL,1,1
+2020-02-29,Brazil,SP,São Paulo/SP,1,2
+2020-02-29,Brazil,TOTAL,TOTAL,1,2
+2020-03-04,Brazil,SP,São Paulo/SP,1,3
+2020-03-04,Brazil,TOTAL,TOTAL,1,3
+2020-03-05,Brazil,SP,São Paulo/SP,3,6
+2020-03-05,Brazil,RJ,Barra Mansa/RJ,1,1
+2020-03-05,Brazil,ES,Vila Velha/ES,1,1
+2020-03-05,Brazil,TOTAL,TOTAL,5,8
+2020-03-06,Brazil,SP,São Paulo/SP,4,10
+2020-03-06,Brazil,BA,Feira de Santana/BA,1,1
+2020-03-06,Brazil,RJ,Barra Mansa/RJ,0,1
+2020-03-06,Brazil,ES,Vila Velha/ES,0,1
+2020-03-06,Brazil,TOTAL,TOTAL,5,13
+2020-03-07,Brazil,SP,São Paulo/SP,3,13
+2020-03-07,Brazil,BA,Feira de Santana/BA,1,2
+2020-03-07,Brazil,RJ,Rio de Janeiro/RJ,1,1
+2020-03-07,Brazil,DF,Brasília/DF,1,1
+2020-03-07,Brazil,RJ,Barra Mansa/RJ,0,1
+2020-03-07,Brazil,ES,Vila Velha/ES,0,1
+2020-03-07,Brazil,TOTAL,TOTAL,6,19
+2020-03-08,Brazil,SP,São Paulo/SP,2,15
+2020-03-08,Brazil,RJ,Rio de Janeiro/RJ,1,2
+2020-03-08,Brazil,AL,Maceió/AL,1,1
+2020-03-08,Brazil,SP,Santana de Parnaíba/SP,1,1
+2020-03-08,Brazil,MG,Divinópolis/MG,1,1
+2020-03-08,Brazil,RJ,Barra Mansa/RJ,0,1
+2020-03-08,Brazil,ES,Vila Velha/ES,0,1
+2020-03-08,Brazil,BA,Feira de Santana/BA,0,2
+2020-03-08,Brazil,DF,Brasília/DF,0,1
+2020-03-08,Brazil,TOTAL,TOTAL,6,25
+2020-03-09,Brazil,RJ,Rio de Janeiro/RJ,4,6
+2020-03-09,Brazil,RJ,Niterói/RJ,1,1
+2020-03-09,Brazil,SP,São Paulo/SP,0,15
+2020-03-09,Brazil,RJ,Barra Mansa/RJ,0,1
+2020-03-09,Brazil,ES,Vila Velha/ES,0,1
+2020-03-09,Brazil,BA,Feira de Santana/BA,0,2
+2020-03-09,Brazil,DF,Brasília/DF,0,1
+2020-03-09,Brazil,AL,Maceió/AL,0,1
+2020-03-09,Brazil,SP,Santana de Parnaíba/SP,0,1
+2020-03-09,Brazil,MG,Divinópolis/MG,0,1
+2020-03-09,Brazil,TOTAL,TOTAL,5,30
+2020-03-10,Brazil,SP,São Paulo/SP,3,18
+2020-03-10,Brazil,DF,Brasília/DF,1,2
+2020-03-10,Brazil,RS,Campo Bom/RS,1,1
+2020-03-10,Brazil,RJ,Barra Mansa/RJ,0,1
+2020-03-10,Brazil,ES,Vila Velha/ES,0,1
+2020-03-10,Brazil,BA,Feira de Santana/BA,0,2
+2020-03-10,Brazil,RJ,Rio de Janeiro/RJ,0,6
+2020-03-10,Brazil,AL,Maceió/AL,0,1
+2020-03-10,Brazil,SP,Santana de Parnaíba/SP,0,1
+2020-03-10,Brazil,MG,Divinópolis/MG,0,1
+2020-03-10,Brazil,RJ,Niterói/RJ,0,1
+2020-03-10,Brazil,TOTAL,TOTAL,5,35
+2020-03-11,Brazil,SP,São Paulo/SP,26,44
+2020-03-11,Brazil,BA,Feira de Santana/BA,1,3
+2020-03-11,Brazil,RJ,Rio de Janeiro/RJ,6,12
+2020-03-11,Brazil,RS,Porto Alegre/RS,1,1
+2020-03-11,Brazil,RJ,Barra Mansa/RJ,0,1
+2020-03-11,Brazil,ES,Vila Velha/ES,0,1
+2020-03-11,Brazil,DF,Brasília/DF,0,2
+2020-03-11,Brazil,AL,Maceió/AL,0,1
+2020-03-11,Brazil,SP,Santana de Parnaíba/SP,0,1
+2020-03-11,Brazil,MG,Divinópolis/MG,0,1
+2020-03-11,Brazil,RJ,Niterói/RJ,0,1
+2020-03-11,Brazil,RS,Campo Bom/RS,0,1
+2020-03-11,Brazil,TOTAL,TOTAL,34,69
+2020-03-12,Brazil,SP,São Paulo/SP,18,62
+2020-03-12,Brazil,ES,Vila Velha/ES,1,2
+2020-03-12,Brazil,RJ,Rio de Janeiro/RJ,2,14
+2020-03-12,Brazil,DF,Brasília/DF,1,3
+2020-03-12,Brazil,RS,Porto Alegre/RS,1,2
+2020-03-12,Brazil,PE,Recife/PE,2,2
+2020-03-12,Brazil,RS,Caxias do Sul/RS,1,1
+2020-03-12,Brazil,PR,Curitiba/PR,5,5
+2020-03-12,Brazil,PR,Cianorte/PR,1,1
+2020-03-12,Brazil,SP,Ferraz de Vasconcelos/SP,1,1
+2020-03-12,Brazil,SC,Florianópolis/SC,2,2
+2020-03-12,Brazil,MG,Ipatinga/MG,1,1
+2020-03-12,Brazil,GO,Rio Verde/GO,1,1
+2020-03-12,Brazil,GO,Goiânia/GO,2,2
+2020-03-12,Brazil,RN,Natal/RN,1,1
+2020-03-12,Brazil,RJ,Barra Mansa/RJ,0,1
+2020-03-12,Brazil,BA,Feira de Santana/BA,0,3
+2020-03-12,Brazil,AL,Maceió/AL,0,1
+2020-03-12,Brazil,SP,Santana de Parnaíba/SP,0,1
+2020-03-12,Brazil,MG,Divinópolis/MG,0,1
+2020-03-12,Brazil,RJ,Niterói/RJ,0,1
+2020-03-12,Brazil,RS,Campo Bom/RS,0,1
+2020-03-12,Brazil,TOTAL,TOTAL,40,109
+2020-03-13,Brazil,BA,Feira de Santana/BA,1,4
+2020-03-13,Brazil,RJ,Rio de Janeiro/RJ,3,17
+2020-03-13,Brazil,RS,Porto Alegre/RS,2,4
+2020-03-13,Brazil,BA,Salvador/BA,3,3
+2020-03-13,Brazil,AM,Manaus/AM,1,1
+2020-03-13,Brazil,SC,Joinville/SC,1,1
+2020-03-13,Brazil,SP,São Paulo/SP,0,62
+2020-03-13,Brazil,RJ,Barra Mansa/RJ,0,1
+2020-03-13,Brazil,ES,Vila Velha/ES,0,2
+2020-03-13,Brazil,DF,Brasília/DF,0,3
+2020-03-13,Brazil,AL,Maceió/AL,0,1
+2020-03-13,Brazil,SP,Santana de Parnaíba/SP,0,1
+2020-03-13,Brazil,MG,Divinópolis/MG,0,1
+2020-03-13,Brazil,RJ,Niterói/RJ,0,1
+2020-03-13,Brazil,RS,Campo Bom/RS,0,1
+2020-03-13,Brazil,PE,Recife/PE,0,2
+2020-03-13,Brazil,RS,Caxias do Sul/RS,0,1
+2020-03-13,Brazil,PR,Curitiba/PR,0,5
+2020-03-13,Brazil,PR,Cianorte/PR,0,1
+2020-03-13,Brazil,SP,Ferraz de Vasconcelos/SP,0,1
+2020-03-13,Brazil,SC,Florianópolis/SC,0,2
+2020-03-13,Brazil,MG,Ipatinga/MG,0,1
+2020-03-13,Brazil,GO,Rio Verde/GO,0,1
+2020-03-13,Brazil,GO,Goiânia/GO,0,2
+2020-03-13,Brazil,RN,Natal/RN,0,1
+2020-03-13,Brazil,TOTAL,TOTAL,11,120
+2020-03-14,Brazil,RJ,Rio de Janeiro/RJ,5,22
+2020-03-14,Brazil,DF,Brasília/DF,5,8
+2020-03-14,Brazil,RS,Porto Alegre/RS,1,5
+2020-03-14,Brazil,PE,Recife/PE,5,7
+2020-03-14,Brazil,GO,Goiânia/GO,1,3
+2020-03-14,Brazil,SC,Rancho Queimado/SC,2,2
+2020-03-14,Brazil,MS,Campo Grande/MS,2,2
+2020-03-14,Brazil,MG,Juiz de Fora/MG,1,1
+2020-03-14,Brazil,MG,Patrocínio/MG,1,1
+2020-03-14,Brazil,SE,Aracaju/SE,1,1
+2020-03-14,Brazil,ES,Linhares/ES,1,1
+2020-03-14,Brazil,ES,Vitória/ES,1,1
+2020-03-14,Brazil,SP,Carapicuíba/SP,1,1
+2020-03-14,Brazil,SP,São Paulo/SP,0,62
+2020-03-14,Brazil,RJ,Barra Mansa/RJ,0,1
+2020-03-14,Brazil,ES,Vila Velha/ES,0,2
+2020-03-14,Brazil,BA,Feira de Santana/BA,0,4
+2020-03-14,Brazil,AL,Maceió/AL,0,1
+2020-03-14,Brazil,SP,Santana de Parnaíba/SP,0,1
+2020-03-14,Brazil,MG,Divinópolis/MG,0,1
+2020-03-14,Brazil,RJ,Niterói/RJ,0,1
+2020-03-14,Brazil,RS,Campo Bom/RS,0,1
+2020-03-14,Brazil,RS,Caxias do Sul/RS,0,1
+2020-03-14,Brazil,PR,Curitiba/PR,0,5
+2020-03-14,Brazil,PR,Cianorte/PR,0,1
+2020-03-14,Brazil,SP,Ferraz de Vasconcelos/SP,0,1
+2020-03-14,Brazil,SC,Florianópolis/SC,0,2
+2020-03-14,Brazil,MG,Ipatinga/MG,0,1
+2020-03-14,Brazil,GO,Rio Verde/GO,0,1
+2020-03-14,Brazil,RN,Natal/RN,0,1
+2020-03-14,Brazil,BA,Salvador/BA,0,3
+2020-03-14,Brazil,AM,Manaus/AM,0,1
+2020-03-14,Brazil,SC,Joinville/SC,0,1
+2020-03-14,Brazil,TOTAL,TOTAL,27,147
+2020-03-15,Brazil,SP,São Paulo/SP,69,131
+2020-03-15,Brazil,BA,Feira de Santana/BA,1,5
+2020-03-15,Brazil,DF,Brasília/DF,6,14
+2020-03-15,Brazil,PE,Recife/PE,1,8
+2020-03-15,Brazil,BA,Salvador/BA,1,4
+2020-03-15,Brazil,SC,Braço do Norte/SC,1,1
+2020-03-15,Brazil,SP,São Bernardo do Campo/SP,1,1
+2020-03-15,Brazil,SP,São Caetano do Sul/SP,1,1
+2020-03-15,Brazil,CE,Fortaleza/CE,3,3
+2020-03-15,Brazil,RJ,Barra Mansa/RJ,0,1
+2020-03-15,Brazil,ES,Vila Velha/ES,0,2
+2020-03-15,Brazil,RJ,Rio de Janeiro/RJ,0,22
+2020-03-15,Brazil,AL,Maceió/AL,0,1
+2020-03-15,Brazil,SP,Santana de Parnaíba/SP,0,1
+2020-03-15,Brazil,MG,Divinópolis/MG,0,1
+2020-03-15,Brazil,RJ,Niterói/RJ,0,1
+2020-03-15,Brazil,RS,Campo Bom/RS,0,1
+2020-03-15,Brazil,RS,Porto Alegre/RS,0,5
+2020-03-15,Brazil,RS,Caxias do Sul/RS,0,1
+2020-03-15,Brazil,PR,Curitiba/PR,0,5
+2020-03-15,Brazil,PR,Cianorte/PR,0,1
+2020-03-15,Brazil,SP,Ferraz de Vasconcelos/SP,0,1
+2020-03-15,Brazil,SC,Florianópolis/SC,0,2
+2020-03-15,Brazil,MG,Ipatinga/MG,0,1
+2020-03-15,Brazil,GO,Rio Verde/GO,0,1
+2020-03-15,Brazil,GO,Goiânia/GO,0,3
+2020-03-15,Brazil,RN,Natal/RN,0,1
+2020-03-15,Brazil,AM,Manaus/AM,0,1
+2020-03-15,Brazil,SC,Joinville/SC,0,1
+2020-03-15,Brazil,SC,Rancho Queimado/SC,0,2
+2020-03-15,Brazil,MS,Campo Grande/MS,0,2
+2020-03-15,Brazil,MG,Juiz de Fora/MG,0,1
+2020-03-15,Brazil,MG,Patrocínio/MG,0,1
+2020-03-15,Brazil,SE,Aracaju/SE,0,1
+2020-03-15,Brazil,ES,Linhares/ES,0,1
+2020-03-15,Brazil,ES,Vitória/ES,0,1
+2020-03-15,Brazil,SP,Carapicuíba/SP,0,1
+2020-03-15,Brazil,TOTAL,TOTAL,84,231
+2020-03-16,Brazil,SP,São Paulo/SP,14,145
+2020-03-16,Brazil,ES,Vila Velha/ES,4,6
+2020-03-16,Brazil,RJ,Rio de Janeiro/RJ,7,29
+2020-03-16,Brazil,DF,Brasília/DF,5,19
+2020-03-16,Brazil,RS,Porto Alegre/RS,3,8
+2020-03-16,Brazil,PE,Recife/PE,8,16
+2020-03-16,Brazil,RS,Caxias do Sul/RS,1,2
+2020-03-16,Brazil,PR,Curitiba/PR,2,7
+2020-03-16,Brazil,SC,Florianópolis/SC,1,3
+2020-03-16,Brazil,GO,Rio Verde/GO,1,2
+2020-03-16,Brazil,GO,Goiânia/GO,2,5
+2020-03-16,Brazil,MS,Campo Grande/MS,2,4
+2020-03-16,Brazil,MG,Juiz de Fora/MG,1,2
+2020-03-16,Brazil,SE,Aracaju/SE,4,5
+2020-03-16,Brazil,SP,São Bernardo do Campo/SP,1,2
+2020-03-16,Brazil,CE,Fortaleza/CE,5,8
+2020-03-16,Brazil,MG,Coronel Fabriciano/MG,1,1
+2020-03-16,Brazil,SP,Mauá/SP,1,1
+2020-03-16,Brazil,CE,Aquiraz/CE,1,1
+2020-03-16,Brazil,MG,Belo Horizonte/MG,1,1
+2020-03-16,Brazil,GO,Anápolis/GO,2,2
+2020-03-16,Brazil,BA,Porto Seguro/BA,1,1
+2020-03-16,Brazil,PE,Belo Jardim/PE,1,1
+2020-03-16,Brazil,PE,Jaboatão dos Guararapes/PE,1,1
+2020-03-16,Brazil,RJ,Barra Mansa/RJ,0,1
+2020-03-16,Brazil,BA,Feira de Santana/BA,0,5
+2020-03-16,Brazil,AL,Maceió/AL,0,1
+2020-03-16,Brazil,SP,Santana de Parnaíba/SP,0,1
+2020-03-16,Brazil,MG,Divinópolis/MG,0,1
+2020-03-16,Brazil,RJ,Niterói/RJ,0,1
+2020-03-16,Brazil,RS,Campo Bom/RS,0,1
+2020-03-16,Brazil,PR,Cianorte/PR,0,1
+2020-03-16,Brazil,SP,Ferraz de Vasconcelos/SP,0,1
+2020-03-16,Brazil,MG,Ipatinga/MG,0,1
+2020-03-16,Brazil,RN,Natal/RN,0,1
+2020-03-16,Brazil,BA,Salvador/BA,0,4
+2020-03-16,Brazil,AM,Manaus/AM,0,1
+2020-03-16,Brazil,SC,Joinville/SC,0,1
+2020-03-16,Brazil,SC,Rancho Queimado/SC,0,2
+2020-03-16,Brazil,MG,Patrocínio/MG,0,1
+2020-03-16,Brazil,ES,Linhares/ES,0,1
+2020-03-16,Brazil,ES,Vitória/ES,0,1
+2020-03-16,Brazil,SP,Carapicuíba/SP,0,1
+2020-03-16,Brazil,SC,Braço do Norte/SC,0,1
+2020-03-16,Brazil,SP,São Caetano do Sul/SP,0,1
+2020-03-16,Brazil,TOTAL,TOTAL,70,301
+2020-03-17,Brazil,SP,São Paulo/SP,11,156
+2020-03-17,Brazil,RJ,Rio de Janeiro/RJ,3,32
+2020-03-17,Brazil,DF,Brasília/DF,7,26
+2020-03-17,Brazil,RJ,Niterói/RJ,5,6
+2020-03-17,Brazil,RS,Porto Alegre/RS,8,16
+2020-03-17,Brazil,PE,Recife/PE,1,17
+2020-03-17,Brazil,PR,Cianorte/PR,1,2
+2020-03-17,Brazil,GO,Rio Verde/GO,1,3
+2020-03-17,Brazil,BA,Salvador/BA,3,7
+2020-03-17,Brazil,AM,Manaus/AM,1,2
+2020-03-17,Brazil,MS,Campo Grande/MS,2,6
+2020-03-17,Brazil,CE,Fortaleza/CE,2,10
+2020-03-17,Brazil,MG,Belo Horizonte/MG,4,5
+2020-03-17,Brazil,BA,Porto Seguro/BA,2,3
+2020-03-17,Brazil,BA,Prado/BA,1,1
+2020-03-17,Brazil,AC,Rio Branco/AC,3,3
+2020-03-17,Brazil,SP,Santo André/SP,1,1
+2020-03-17,Brazil,MG,Nova Lima/MG,1,1
+2020-03-17,Brazil,MG,Sete Lagoas/MG,1,1
+2020-03-17,Brazil,MG,Uberlândia/MG,1,1
+2020-03-17,Brazil,PR,Campo Largo/PR,1,1
+2020-03-17,Brazil,PR,Pinhais/PR,1,1
+2020-03-17,Brazil,PR,Londrina/PR,1,1
+2020-03-17,Brazil,MT,Rondonópolis/MT,1,1
+2020-03-17,Brazil,RJ,Barra Mansa/RJ,0,1
+2020-03-17,Brazil,ES,Vila Velha/ES,0,6
+2020-03-17,Brazil,BA,Feira de Santana/BA,0,5
+2020-03-17,Brazil,AL,Maceió/AL,0,1
+2020-03-17,Brazil,SP,Santana de Parnaíba/SP,0,1
+2020-03-17,Brazil,MG,Divinópolis/MG,0,1
+2020-03-17,Brazil,RS,Campo Bom/RS,0,1
+2020-03-17,Brazil,RS,Caxias do Sul/RS,0,2
+2020-03-17,Brazil,PR,Curitiba/PR,0,7
+2020-03-17,Brazil,SP,Ferraz de Vasconcelos/SP,0,1
+2020-03-17,Brazil,SC,Florianópolis/SC,0,3
+2020-03-17,Brazil,MG,Ipatinga/MG,0,1
+2020-03-17,Brazil,GO,Goiânia/GO,0,5
+2020-03-17,Brazil,RN,Natal/RN,0,1
+2020-03-17,Brazil,SC,Joinville/SC,0,1
+2020-03-17,Brazil,SC,Rancho Queimado/SC,0,2
+2020-03-17,Brazil,MG,Juiz de Fora/MG,0,2
+2020-03-17,Brazil,MG,Patrocínio/MG,0,1
+2020-03-17,Brazil,SE,Aracaju/SE,0,5
+2020-03-17,Brazil,ES,Linhares/ES,0,1
+2020-03-17,Brazil,ES,Vitória/ES,0,1
+2020-03-17,Brazil,SP,Carapicuíba/SP,0,1
+2020-03-17,Brazil,SC,Braço do Norte/SC,0,1
+2020-03-17,Brazil,SP,São Bernardo do Campo/SP,0,2
+2020-03-17,Brazil,SP,São Caetano do Sul/SP,0,1
+2020-03-17,Brazil,MG,Coronel Fabriciano/MG,0,1
+2020-03-17,Brazil,SP,Mauá/SP,0,1
+2020-03-17,Brazil,CE,Aquiraz/CE,0,1
+2020-03-17,Brazil,GO,Anápolis/GO,0,2
+2020-03-17,Brazil,PE,Belo Jardim/PE,0,1
+2020-03-17,Brazil,PE,Jaboatão dos Guararapes/PE,0,1
+2020-03-17,Brazil,TOTAL,TOTAL,63,364
+2020-03-18,Brazil,SP,São Paulo/SP,72,228
+2020-03-18,Brazil,ES,Vila Velha/ES,1,7
+2020-03-18,Brazil,RJ,Rio de Janeiro/RJ,23,55
+2020-03-18,Brazil,DF,Brasília/DF,10,36
+2020-03-18,Brazil,RS,Campo Bom/RS,1,2
+2020-03-18,Brazil,RS,Porto Alegre/RS,5,21
+2020-03-18,Brazil,PE,Recife/PE,3,20
+2020-03-18,Brazil,SC,Florianópolis/SC,2,5
+2020-03-18,Brazil,BA,Salvador/BA,10,17
+2020-03-18,Brazil,MS,Campo Grande/MS,1,7
+2020-03-18,Brazil,ES,Vitória/ES,2,3
+2020-03-18,Brazil,SC,Braço do Norte/SC,1,2
+2020-03-18,Brazil,SP,São Bernardo do Campo/SP,1,3
+2020-03-18,Brazil,CE,Fortaleza/CE,8,18
+2020-03-18,Brazil,MG,Belo Horizonte/MG,5,10
+2020-03-18,Brazil,BA,Porto Seguro/BA,1,4
+2020-03-18,Brazil,SP,Santo André/SP,1,2
+2020-03-18,Brazil,TO,Palmas/TO,1,1
+2020-03-18,Brazil,GO,Jataí/GO,1,1
+2020-03-18,Brazil,GO,Aparecida de Goiânia/GO,1,1
+2020-03-18,Brazil,SC,Balneário Camboriú/SC,2,2
+2020-03-18,Brazil,PR,Maringá/PR,1,1
+2020-03-18,Brazil,PR,Foz do Iguaçu/PR,1,1
+2020-03-18,Brazil,PA,Belém/PA,1,1
+2020-03-18,Brazil,SE,Propriá/SE,1,1
+2020-03-18,Brazil,PB,João Pessoa/PB,1,1
+2020-03-18,Brazil,RJ,Guapimirim/RJ,1,1
+2020-03-18,Brazil,SP,Jaguariúna/SP,1,1
+2020-03-18,Brazil,SP,São José do Rio Preto/SP,1,1
+2020-03-18,Brazil,SP,Campinas/SP,1,1
+2020-03-18,Brazil,SP,Guarulhos/SP,1,1
+2020-03-18,Brazil,SP,Barueri/SP,1,1
+2020-03-18,Brazil,SP,Cotia/SP,1,1
+2020-03-18,Brazil,MG,Uberaba/MG,1,1
+2020-03-18,Brazil,SC,Tubarão/SC,2,2
+2020-03-18,Brazil,CE,Sobral/CE,1,1
+2020-03-18,Brazil,RS,Serafina Corrêa/RS,1,1
+2020-03-18,Brazil,RS,Torres/RS,1,1
+2020-03-18,Brazil,RS,Farroupilha/RS,1,1
+2020-03-18,Brazil,RJ,Barra Mansa/RJ,0,1
+2020-03-18,Brazil,BA,Feira de Santana/BA,0,5
+2020-03-18,Brazil,AL,Maceió/AL,0,1
+2020-03-18,Brazil,SP,Santana de Parnaíba/SP,0,1
+2020-03-18,Brazil,MG,Divinópolis/MG,0,1
+2020-03-18,Brazil,RJ,Niterói/RJ,0,6
+2020-03-18,Brazil,RS,Caxias do Sul/RS,0,2
+2020-03-18,Brazil,PR,Curitiba/PR,0,7
+2020-03-18,Brazil,PR,Cianorte/PR,0,2
+2020-03-18,Brazil,SP,Ferraz de Vasconcelos/SP,0,1
+2020-03-18,Brazil,MG,Ipatinga/MG,0,1
+2020-03-18,Brazil,GO,Rio Verde/GO,0,3
+2020-03-18,Brazil,GO,Goiânia/GO,0,5
+2020-03-18,Brazil,RN,Natal/RN,0,1
+2020-03-18,Brazil,AM,Manaus/AM,0,2
+2020-03-18,Brazil,SC,Joinville/SC,0,1
+2020-03-18,Brazil,SC,Rancho Queimado/SC,0,2
+2020-03-18,Brazil,MG,Juiz de Fora/MG,0,2
+2020-03-18,Brazil,MG,Patrocínio/MG,0,1
+2020-03-18,Brazil,SE,Aracaju/SE,0,5
+2020-03-18,Brazil,ES,Linhares/ES,0,1
+2020-03-18,Brazil,SP,Carapicuíba/SP,0,1
+2020-03-18,Brazil,SP,São Caetano do Sul/SP,0,1
+2020-03-18,Brazil,MG,Coronel Fabriciano/MG,0,1
+2020-03-18,Brazil,SP,Mauá/SP,0,1
+2020-03-18,Brazil,CE,Aquiraz/CE,0,1
+2020-03-18,Brazil,GO,Anápolis/GO,0,2
+2020-03-18,Brazil,PE,Belo Jardim/PE,0,1
+2020-03-18,Brazil,PE,Jaboatão dos Guararapes/PE,0,1
+2020-03-18,Brazil,BA,Prado/BA,0,1
+2020-03-18,Brazil,AC,Rio Branco/AC,0,3
+2020-03-18,Brazil,MG,Nova Lima/MG,0,1
+2020-03-18,Brazil,MG,Sete Lagoas/MG,0,1
+2020-03-18,Brazil,MG,Uberlândia/MG,0,1
+2020-03-18,Brazil,PR,Campo Largo/PR,0,1
+2020-03-18,Brazil,PR,Pinhais/PR,0,1
+2020-03-18,Brazil,PR,Londrina/PR,0,1
+2020-03-18,Brazil,MT,Rondonópolis/MT,0,1
+2020-03-18,Brazil,TOTAL,TOTAL,171,535
+2020-03-19,Brazil,SP,São Paulo/SP,39,267
+2020-03-19,Brazil,RJ,Rio de Janeiro/RJ,1,56
+2020-03-19,Brazil,DF,Brasília/DF,48,84
+2020-03-19,Brazil,AL,Maceió/AL,3,4
+2020-03-19,Brazil,RJ,Niterói/RJ,1,7
+2020-03-19,Brazil,RS,Porto Alegre/RS,2,23
+2020-03-19,Brazil,PE,Recife/PE,6,26
+2020-03-19,Brazil,PR,Curitiba/PR,9,16
+2020-03-19,Brazil,SC,Florianópolis/SC,1,6
+2020-03-19,Brazil,GO,Goiânia/GO,3,8
+2020-03-19,Brazil,BA,Salvador/BA,1,18
+2020-03-19,Brazil,AM,Manaus/AM,1,3
+2020-03-19,Brazil,SC,Joinville/SC,1,2
+2020-03-19,Brazil,MS,Campo Grande/MS,1,8
+2020-03-19,Brazil,ES,Vitória/ES,2,5
+2020-03-19,Brazil,SP,Carapicuíba/SP,1,2
+2020-03-19,Brazil,SC,Braço do Norte/SC,2,4
+2020-03-19,Brazil,CE,Fortaleza/CE,4,22
+2020-03-19,Brazil,MG,Belo Horizonte/MG,8,18
+2020-03-19,Brazil,AC,Rio Branco/AC,1,4
+2020-03-19,Brazil,MG,Nova Lima/MG,1,2
+2020-03-19,Brazil,SC,Balneário Camboriú/SC,2,4
+2020-03-19,Brazil,SP,Cotia/SP,1,2
+2020-03-19,Brazil,RS,Serafina Corrêa/RS,1,2
+2020-03-19,Brazil,SC,São José/SC,1,1
+2020-03-19,Brazil,MS,Sidrolândia/MS,1,1
+2020-03-19,Brazil,BA,Lauro de Freitas/BA,2,2
+2020-03-19,Brazil,BA,Itabuna/BA,1,1
+2020-03-19,Brazil,RJ,Miguel Pereira/RJ,1,1
+2020-03-19,Brazil,RS,Bagé/RS,2,2
+2020-03-19,Brazil,RS,Alvorada/RS,1,1
+2020-03-19,Brazil,RS,Erechim/RS,2,2
+2020-03-19,Brazil,RS,Santana do Livramento/RS,1,1
+2020-03-19,Brazil,PI,Teresina/PI,3,3
+2020-03-19,Brazil,SP,Taubaté/SP,1,1
+2020-03-19,Brazil,SP,Suzano/SP,1,1
+2020-03-19,Brazil,RO,Ji-Paraná/RO,1,1
+2020-03-19,Brazil,CE,Juazeiro do Norte/CE,1,1
+2020-03-19,Brazil,RJ,Barra Mansa/RJ,0,1
+2020-03-19,Brazil,ES,Vila Velha/ES,0,7
+2020-03-19,Brazil,BA,Feira de Santana/BA,0,5
+2020-03-19,Brazil,SP,Santana de Parnaíba/SP,0,1
+2020-03-19,Brazil,MG,Divinópolis/MG,0,1
+2020-03-19,Brazil,RS,Campo Bom/RS,0,2
+2020-03-19,Brazil,RS,Caxias do Sul/RS,0,2
+2020-03-19,Brazil,PR,Cianorte/PR,0,2
+2020-03-19,Brazil,SP,Ferraz de Vasconcelos/SP,0,1
+2020-03-19,Brazil,MG,Ipatinga/MG,0,1
+2020-03-19,Brazil,GO,Rio Verde/GO,0,3
+2020-03-19,Brazil,RN,Natal/RN,0,1
+2020-03-19,Brazil,SC,Rancho Queimado/SC,0,2
+2020-03-19,Brazil,MG,Juiz de Fora/MG,0,2
+2020-03-19,Brazil,MG,Patrocínio/MG,0,1
+2020-03-19,Brazil,SE,Aracaju/SE,0,5
+2020-03-19,Brazil,ES,Linhares/ES,0,1
+2020-03-19,Brazil,SP,São Bernardo do Campo/SP,0,3
+2020-03-19,Brazil,SP,São Caetano do Sul/SP,0,1
+2020-03-19,Brazil,MG,Coronel Fabriciano/MG,0,1
+2020-03-19,Brazil,SP,Mauá/SP,0,1
+2020-03-19,Brazil,CE,Aquiraz/CE,0,1
+2020-03-19,Brazil,GO,Anápolis/GO,0,2
+2020-03-19,Brazil,BA,Porto Seguro/BA,0,4
+2020-03-19,Brazil,PE,Belo Jardim/PE,0,1
+2020-03-19,Brazil,PE,Jaboatão dos Guararapes/PE,0,1
+2020-03-19,Brazil,BA,Prado/BA,0,1
+2020-03-19,Brazil,SP,Santo André/SP,0,2
+2020-03-19,Brazil,MG,Sete Lagoas/MG,0,1
+2020-03-19,Brazil,MG,Uberlândia/MG,0,1
+2020-03-19,Brazil,PR,Campo Largo/PR,0,1
+2020-03-19,Brazil,PR,Pinhais/PR,0,1
+2020-03-19,Brazil,PR,Londrina/PR,0,1
+2020-03-19,Brazil,MT,Rondonópolis/MT,0,1
+2020-03-19,Brazil,TO,Palmas/TO,0,1
+2020-03-19,Brazil,GO,Jataí/GO,0,1
+2020-03-19,Brazil,GO,Aparecida de Goiânia/GO,0,1
+2020-03-19,Brazil,PR,Maringá/PR,0,1
+2020-03-19,Brazil,PR,Foz do Iguaçu/PR,0,1
+2020-03-19,Brazil,PA,Belém/PA,0,1
+2020-03-19,Brazil,SE,Propriá/SE,0,1
+2020-03-19,Brazil,PB,João Pessoa/PB,0,1
+2020-03-19,Brazil,RJ,Guapimirim/RJ,0,1
+2020-03-19,Brazil,SP,Jaguariúna/SP,0,1
+2020-03-19,Brazil,SP,São José do Rio Preto/SP,0,1
+2020-03-19,Brazil,SP,Campinas/SP,0,1
+2020-03-19,Brazil,SP,Guarulhos/SP,0,1
+2020-03-19,Brazil,SP,Barueri/SP,0,1
+2020-03-19,Brazil,MG,Uberaba/MG,0,1
+2020-03-19,Brazil,SC,Tubarão/SC,0,2
+2020-03-19,Brazil,CE,Sobral/CE,0,1
+2020-03-19,Brazil,RS,Torres/RS,0,1
+2020-03-19,Brazil,RS,Farroupilha/RS,0,1
+2020-03-19,Brazil,TOTAL,TOTAL,159,694
+2020-03-20,Brazil,SP,São Paulo/SP,99,366
+2020-03-20,Brazil,BA,Feira de Santana/BA,1,6
+2020-03-20,Brazil,RJ,Rio de Janeiro/RJ,38,94
+2020-03-20,Brazil,DF,Brasília/DF,24,108
+2020-03-20,Brazil,AL,Maceió/AL,2,6
+2020-03-20,Brazil,SP,Santana de Parnaíba/SP,1,2
+2020-03-20,Brazil,RJ,Niterói/RJ,3,10
+2020-03-20,Brazil,RS,Porto Alegre/RS,9,32
+2020-03-20,Brazil,PE,Recife/PE,1,27
+2020-03-20,Brazil,PR,Curitiba/PR,10,26
+2020-03-20,Brazil,SC,Florianópolis/SC,4,10
+2020-03-20,Brazil,GO,Goiânia/GO,2,10
+2020-03-20,Brazil,RN,Natal/RN,4,5
+2020-03-20,Brazil,AM,Manaus/AM,4,7
+2020-03-20,Brazil,SC,Joinville/SC,1,3
+2020-03-20,Brazil,MS,Campo Grande/MS,3,11
+2020-03-20,Brazil,MG,Juiz de Fora/MG,3,5
+2020-03-20,Brazil,ES,Vitória/ES,1,6
+2020-03-20,Brazil,SP,São Bernardo do Campo/SP,1,4
+2020-03-20,Brazil,SP,São Caetano do Sul/SP,3,4
+2020-03-20,Brazil,CE,Fortaleza/CE,42,64
+2020-03-20,Brazil,MG,Belo Horizonte/MG,2,20
+2020-03-20,Brazil,PE,Jaboatão dos Guararapes/PE,2,3
+2020-03-20,Brazil,AC,Rio Branco/AC,3,7
+2020-03-20,Brazil,SP,Santo André/SP,1,3
+2020-03-20,Brazil,MG,Nova Lima/MG,2,4
+2020-03-20,Brazil,PR,Londrina/PR,2,3
+2020-03-20,Brazil,GO,Aparecida de Goiânia/GO,1,2
+2020-03-20,Brazil,PA,Belém/PA,1,2
+2020-03-20,Brazil,SE,Propriá/SE,1,2
+2020-03-20,Brazil,SC,Tubarão/SC,4,6
+2020-03-20,Brazil,RS,Torres/RS,1,2
+2020-03-20,Brazil,BA,Lauro de Freitas/BA,1,3
+2020-03-20,Brazil,RS,Alvorada/RS,1,2
+2020-03-20,Brazil,RS,Erechim/RS,1,3
+2020-03-20,Brazil,RS,Santana do Livramento/RS,1,2
+2020-03-20,Brazil,PI,Teresina/PI,1,4
+2020-03-20,Brazil,CE,Fortim/CE,1,1
+2020-03-20,Brazil,AP,Macapá/AP,1,1
+2020-03-20,Brazil,SC,Itajaí/SC,1,1
+2020-03-20,Brazil,SC,Navegantes/SC,1,1
+2020-03-20,Brazil,SC,Pomerode/SC,1,1
+2020-03-20,Brazil,SC,Jaraguá do Sul/SC,1,1
+2020-03-20,Brazil,SC,Imbituba/SC,2,2
+2020-03-20,Brazil,SC,Criciúma/SC,3,3
+2020-03-20,Brazil,SC,Chapecó/SC,1,1
+2020-03-20,Brazil,PR,Guaíra/PR,1,1
+2020-03-20,Brazil,BA,Camaçari/BA,1,1
+2020-03-20,Brazil,RJ,Petrópolis/RJ,2,2
+2020-03-20,Brazil,RS,Ivoti/RS,2,2
+2020-03-20,Brazil,RS,Charqueadas/RS,1,1
+2020-03-20,Brazil,RS,São Leopoldo/RS,1,1
+2020-03-20,Brazil,RS,Taquara/RS,1,1
+2020-03-20,Brazil,RS,Dois Irmãos/RS,1,1
+2020-03-20,Brazil,RS,Eldorado do Sul/RS,1,1
+2020-03-20,Brazil,RS,Canoas/RS,2,2
+2020-03-20,Brazil,ES,Cariacica/ES,1,1
+2020-03-20,Brazil,ES,Cachoeiro de Itapemirim/ES,1,1
+2020-03-20,Brazil,MA,São Luís/MA,1,1
+2020-03-20,Brazil,RN,Parnamirim/RN,1,1
+2020-03-20,Brazil,MG,Mariana/MG,1,1
+2020-03-20,Brazil,MG,Poços de Caldas/MG,1,1
+2020-03-20,Brazil,SP,Osasco/SP,1,1
+2020-03-20,Brazil,SP,São José dos Campos/SP,1,1
+2020-03-20,Brazil,SP,Hortolândia/SP,1,1
+2020-03-20,Brazil,SP,Mogi das Cruzes/SP,1,1
+2020-03-20,Brazil,RS,Bento Gonçalves/RS,1,1
+2020-03-20,Brazil,MT,Cuiabá/MT,1,1
+2020-03-20,Brazil,RJ,Barra Mansa/RJ,0,1
+2020-03-20,Brazil,ES,Vila Velha/ES,0,7
+2020-03-20,Brazil,MG,Divinópolis/MG,0,1
+2020-03-20,Brazil,RS,Campo Bom/RS,0,2
+2020-03-20,Brazil,RS,Caxias do Sul/RS,0,2
+2020-03-20,Brazil,PR,Cianorte/PR,0,2
+2020-03-20,Brazil,SP,Ferraz de Vasconcelos/SP,0,1
+2020-03-20,Brazil,MG,Ipatinga/MG,0,1
+2020-03-20,Brazil,GO,Rio Verde/GO,0,3
+2020-03-20,Brazil,BA,Salvador/BA,0,18
+2020-03-20,Brazil,SC,Rancho Queimado/SC,0,2
+2020-03-20,Brazil,MG,Patrocínio/MG,0,1
+2020-03-20,Brazil,SE,Aracaju/SE,0,5
+2020-03-20,Brazil,ES,Linhares/ES,0,1
+2020-03-20,Brazil,SP,Carapicuíba/SP,0,2
+2020-03-20,Brazil,SC,Braço do Norte/SC,0,4
+2020-03-20,Brazil,MG,Coronel Fabriciano/MG,0,1
+2020-03-20,Brazil,SP,Mauá/SP,0,1
+2020-03-20,Brazil,CE,Aquiraz/CE,0,1
+2020-03-20,Brazil,GO,Anápolis/GO,0,2
+2020-03-20,Brazil,BA,Porto Seguro/BA,0,4
+2020-03-20,Brazil,PE,Belo Jardim/PE,0,1
+2020-03-20,Brazil,BA,Prado/BA,0,1
+2020-03-20,Brazil,MG,Sete Lagoas/MG,0,1
+2020-03-20,Brazil,MG,Uberlândia/MG,0,1
+2020-03-20,Brazil,PR,Campo Largo/PR,0,1
+2020-03-20,Brazil,PR,Pinhais/PR,0,1
+2020-03-20,Brazil,MT,Rondonópolis/MT,0,1
+2020-03-20,Brazil,TO,Palmas/TO,0,1
+2020-03-20,Brazil,GO,Jataí/GO,0,1
+2020-03-20,Brazil,SC,Balneário Camboriú/SC,0,4
+2020-03-20,Brazil,PR,Maringá/PR,0,1
+2020-03-20,Brazil,PR,Foz do Iguaçu/PR,0,1
+2020-03-20,Brazil,PB,João Pessoa/PB,0,1
+2020-03-20,Brazil,RJ,Guapimirim/RJ,0,1
+2020-03-20,Brazil,SP,Jaguariúna/SP,0,1
+2020-03-20,Brazil,SP,São José do Rio Preto/SP,0,1
+2020-03-20,Brazil,SP,Campinas/SP,0,1
+2020-03-20,Brazil,SP,Guarulhos/SP,0,1
+2020-03-20,Brazil,SP,Barueri/SP,0,1
+2020-03-20,Brazil,SP,Cotia/SP,0,2
+2020-03-20,Brazil,MG,Uberaba/MG,0,1
+2020-03-20,Brazil,CE,Sobral/CE,0,1
+2020-03-20,Brazil,RS,Serafina Corrêa/RS,0,2
+2020-03-20,Brazil,RS,Farroupilha/RS,0,1
+2020-03-20,Brazil,SC,São José/SC,0,1
+2020-03-20,Brazil,MS,Sidrolândia/MS,0,1
+2020-03-20,Brazil,BA,Itabuna/BA,0,1
+2020-03-20,Brazil,RJ,Miguel Pereira/RJ,0,1
+2020-03-20,Brazil,RS,Bagé/RS,0,2
+2020-03-20,Brazil,SP,Taubaté/SP,0,1
+2020-03-20,Brazil,SP,Suzano/SP,0,1
+2020-03-20,Brazil,RO,Ji-Paraná/RO,0,1
+2020-03-20,Brazil,CE,Juazeiro do Norte/CE,0,1
+2020-03-20,Brazil,TOTAL,TOTAL,318,1012
+2020-03-21,Brazil,ES,Vila Velha/ES,4,11
+2020-03-21,Brazil,RJ,Rio de Janeiro/RJ,9,103
+2020-03-21,Brazil,DF,Brasília/DF,4,112
+2020-03-21,Brazil,AL,Maceió/AL,1,7
+2020-03-21,Brazil,RS,Porto Alegre/RS,4,36
+2020-03-21,Brazil,PE,Recife/PE,2,29
+2020-03-21,Brazil,PR,Curitiba/PR,5,31
+2020-03-21,Brazil,GO,Rio Verde/GO,2,5
+2020-03-21,Brazil,RN,Natal/RN,1,6
+2020-03-21,Brazil,BA,Salvador/BA,5,23
+2020-03-21,Brazil,AM,Manaus/AM,4,11
+2020-03-21,Brazil,SC,Joinville/SC,1,4
+2020-03-21,Brazil,MS,Campo Grande/MS,3,14
+2020-03-21,Brazil,SE,Aracaju/SE,2,7
+2020-03-21,Brazil,ES,Linhares/ES,1,2
+2020-03-21,Brazil,ES,Vitória/ES,5,11
+2020-03-21,Brazil,SC,Braço do Norte/SC,2,6
+2020-03-21,Brazil,CE,Fortaleza/CE,13,77
+2020-03-21,Brazil,CE,Aquiraz/CE,3,4
+2020-03-21,Brazil,MG,Belo Horizonte/MG,13,33
+2020-03-21,Brazil,BA,Porto Seguro/BA,1,5
+2020-03-21,Brazil,BA,Prado/BA,1,2
+2020-03-21,Brazil,AC,Rio Branco/AC,4,11
+2020-03-21,Brazil,MG,Uberlândia/MG,2,3
+2020-03-21,Brazil,TO,Palmas/TO,1,2
+2020-03-21,Brazil,SC,Balneário Camboriú/SC,2,6
+2020-03-21,Brazil,MG,Uberaba/MG,2,3
+2020-03-21,Brazil,SC,São José/SC,1,2
+2020-03-21,Brazil,RS,Bagé/RS,1,3
+2020-03-21,Brazil,SC,Itajaí/SC,5,6
+2020-03-21,Brazil,SC,Criciúma/SC,3,6
+2020-03-21,Brazil,SC,Chapecó/SC,1,2
+2020-03-21,Brazil,RJ,Petrópolis/RJ,1,3
+2020-03-21,Brazil,MA,São Luís/MA,1,2
+2020-03-21,Brazil,RN,Parnamirim/RN,1,2
+2020-03-21,Brazil,RS,Bento Gonçalves/RS,1,2
+2020-03-21,Brazil,PR,Ponta Grossa/PR,1,1
+2020-03-21,Brazil,PR,Pato Branco/PR,1,1
+2020-03-21,Brazil,SC,Jaguaruna/SC,1,1
+2020-03-21,Brazil,SC,Gravatal/SC,1,1
+2020-03-21,Brazil,MT,Várzea Grande/MT,1,1
+2020-03-21,Brazil,SP,NO-INFO/SP,63,63
+2020-03-21,Brazil,MS,Ponta Porã/MS,1,1
+2020-03-21,Brazil,SE,Nossa Senhora da Glória/SE,1,1
+2020-03-21,Brazil,RO,Porto Velho/RO,2,2
+2020-03-21,Brazil,RR,Boa Vista/RR,2,2
+2020-03-21,Brazil,RS,Carlos Barbosa/RS,1,1
+2020-03-21,Brazil,RS,Estância Velha/RS,1,1
+2020-03-21,Brazil,RS,Estrela/RS,1,1
+2020-03-21,Brazil,RS,Lajeado/RS,1,1
+2020-03-21,Brazil,RS,Santa Maria/RS,1,1
+2020-03-21,Brazil,RS,Viamão/RS,1,1
+2020-03-21,Brazil,RN,Mossoró/RN,1,1
+2020-03-21,Brazil,SP,São Paulo/SP,0,366
+2020-03-21,Brazil,RJ,Barra Mansa/RJ,0,1
+2020-03-21,Brazil,BA,Feira de Santana/BA,0,6
+2020-03-21,Brazil,SP,Santana de Parnaíba/SP,0,2
+2020-03-21,Brazil,MG,Divinópolis/MG,0,1
+2020-03-21,Brazil,RJ,Niterói/RJ,0,10
+2020-03-21,Brazil,RS,Campo Bom/RS,0,2
+2020-03-21,Brazil,RS,Caxias do Sul/RS,0,2
+2020-03-21,Brazil,PR,Cianorte/PR,0,2
+2020-03-21,Brazil,SP,Ferraz de Vasconcelos/SP,0,1
+2020-03-21,Brazil,SC,Florianópolis/SC,0,10
+2020-03-21,Brazil,MG,Ipatinga/MG,0,1
+2020-03-21,Brazil,GO,Goiânia/GO,0,10
+2020-03-21,Brazil,SC,Rancho Queimado/SC,0,2
+2020-03-21,Brazil,MG,Juiz de Fora/MG,0,5
+2020-03-21,Brazil,MG,Patrocínio/MG,0,1
+2020-03-21,Brazil,SP,Carapicuíba/SP,0,2
+2020-03-21,Brazil,SP,São Bernardo do Campo/SP,0,4
+2020-03-21,Brazil,SP,São Caetano do Sul/SP,0,4
+2020-03-21,Brazil,MG,Coronel Fabriciano/MG,0,1
+2020-03-21,Brazil,SP,Mauá/SP,0,1
+2020-03-21,Brazil,GO,Anápolis/GO,0,2
+2020-03-21,Brazil,PE,Belo Jardim/PE,0,1
+2020-03-21,Brazil,PE,Jaboatão dos Guararapes/PE,0,3
+2020-03-21,Brazil,SP,Santo André/SP,0,3
+2020-03-21,Brazil,MG,Nova Lima/MG,0,4
+2020-03-21,Brazil,MG,Sete Lagoas/MG,0,1
+2020-03-21,Brazil,PR,Campo Largo/PR,0,1
+2020-03-21,Brazil,PR,Pinhais/PR,0,1
+2020-03-21,Brazil,PR,Londrina/PR,0,3
+2020-03-21,Brazil,MT,Rondonópolis/MT,0,1
+2020-03-21,Brazil,GO,Jataí/GO,0,1
+2020-03-21,Brazil,GO,Aparecida de Goiânia/GO,0,2
+2020-03-21,Brazil,PR,Maringá/PR,0,1
+2020-03-21,Brazil,PR,Foz do Iguaçu/PR,0,1
+2020-03-21,Brazil,PA,Belém/PA,0,2
+2020-03-21,Brazil,SE,Propriá/SE,0,2
+2020-03-21,Brazil,PB,João Pessoa/PB,0,1
+2020-03-21,Brazil,RJ,Guapimirim/RJ,0,1
+2020-03-21,Brazil,SP,Jaguariúna/SP,0,1
+2020-03-21,Brazil,SP,São José do Rio Preto/SP,0,1
+2020-03-21,Brazil,SP,Campinas/SP,0,1
+2020-03-21,Brazil,SP,Guarulhos/SP,0,1
+2020-03-21,Brazil,SP,Barueri/SP,0,1
+2020-03-21,Brazil,SP,Cotia/SP,0,2
+2020-03-21,Brazil,SC,Tubarão/SC,0,6
+2020-03-21,Brazil,CE,Sobral/CE,0,1
+2020-03-21,Brazil,RS,Serafina Corrêa/RS,0,2
+2020-03-21,Brazil,RS,Torres/RS,0,2
+2020-03-21,Brazil,RS,Farroupilha/RS,0,1
+2020-03-21,Brazil,MS,Sidrolândia/MS,0,1
+2020-03-21,Brazil,BA,Lauro de Freitas/BA,0,3
+2020-03-21,Brazil,BA,Itabuna/BA,0,1
+2020-03-21,Brazil,RJ,Miguel Pereira/RJ,0,1
+2020-03-21,Brazil,RS,Alvorada/RS,0,2
+2020-03-21,Brazil,RS,Erechim/RS,0,3
+2020-03-21,Brazil,RS,Santana do Livramento/RS,0,2
+2020-03-21,Brazil,PI,Teresina/PI,0,4
+2020-03-21,Brazil,SP,Taubaté/SP,0,1
+2020-03-21,Brazil,SP,Suzano/SP,0,1
+2020-03-21,Brazil,RO,Ji-Paraná/RO,0,1
+2020-03-21,Brazil,CE,Juazeiro do Norte/CE,0,1
+2020-03-21,Brazil,CE,Fortim/CE,0,1
+2020-03-21,Brazil,AP,Macapá/AP,0,1
+2020-03-21,Brazil,SC,Navegantes/SC,0,1
+2020-03-21,Brazil,SC,Pomerode/SC,0,1
+2020-03-21,Brazil,SC,Jaraguá do Sul/SC,0,1
+2020-03-21,Brazil,SC,Imbituba/SC,0,2
+2020-03-21,Brazil,PR,Guaíra/PR,0,1
+2020-03-21,Brazil,BA,Camaçari/BA,0,1
+2020-03-21,Brazil,RS,Ivoti/RS,0,2
+2020-03-21,Brazil,RS,Charqueadas/RS,0,1
+2020-03-21,Brazil,RS,São Leopoldo/RS,0,1
+2020-03-21,Brazil,RS,Taquara/RS,0,1
+2020-03-21,Brazil,RS,Dois Irmãos/RS,0,1
+2020-03-21,Brazil,RS,Eldorado do Sul/RS,0,1
+2020-03-21,Brazil,RS,Canoas/RS,0,2
+2020-03-21,Brazil,ES,Cariacica/ES,0,1
+2020-03-21,Brazil,ES,Cachoeiro de Itapemirim/ES,0,1
+2020-03-21,Brazil,MG,Mariana/MG,0,1
+2020-03-21,Brazil,MG,Poços de Caldas/MG,0,1
+2020-03-21,Brazil,SP,Osasco/SP,0,1
+2020-03-21,Brazil,SP,São José dos Campos/SP,0,1
+2020-03-21,Brazil,SP,Hortolândia/SP,0,1
+2020-03-21,Brazil,SP,Mogi das Cruzes/SP,0,1
+2020-03-21,Brazil,MT,Cuiabá/MT,0,1
+2020-03-21,Brazil,TOTAL,TOTAL,193,1205
