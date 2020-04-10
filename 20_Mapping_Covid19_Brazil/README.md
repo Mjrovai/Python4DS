@@ -2,7 +2,10 @@
 <h3> Tracking the pandemia in Brazil</h3>
 <br>
 General Situation in Brazil:
-<img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/images/!cv19_BR_CV_Total_Cases_last_updated.png"/>
+<img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/images/!cv19_BR_CV_totalCases_last_updated.png"/>
+<img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/images/!cv19_BR_CV_CFR[%]_last_updated.png"/>
+<img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/images/!cv19_BR_CV_TotalCases_per_1M_pop_last_updated.png"/>
+<img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/images/!!cv19_BR_CV_Deaths_per_1M_pop_last_updated.png"/>
 <img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/images/!cv19_BR_last_updated.png"/>
 Specific situation in the Main States
 <img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/images/!cv19_SP_last_updated.png"/>
