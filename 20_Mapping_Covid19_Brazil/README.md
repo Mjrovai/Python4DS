@@ -20,4 +20,4 @@ Timeline since pandemic started:
 <img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/gifs/RJ_Covid-19_Timeline.gif"/>
 <img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/gifs/MG_Covid-19_Timeline.gif"/>
 <img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/gifs/CE_Covid-19_Timeline.gif"/>
-<br><br>
+<br>
