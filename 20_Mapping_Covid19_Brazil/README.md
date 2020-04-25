@@ -15,9 +15,10 @@ Specific situation in the Main States
 <img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/images/!cv19_MG_last_updated.png"/>
 <img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/images/!cv19_CE_last_updated.png"/>
 Timeline since pandemic started:
-<img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/gifs/BR_Covid-19_Timeline.gif"/>
-<img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/gifs/SP_Covid-19_Timeline.gif"/>
-<img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/gifs/RJ_Covid-19_Timeline.gif"/>
-<img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/gifs/MG_Covid-19_Timeline.gif"/>
-<img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/gifs/CE_Covid-19_Timeline.gif"/>
+
+<img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/90_Videos_Out/BR_Covid-19_Timeline.mp4"/>
+<img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/90_Videos_Out/SP_Covid-19_Timeline.mp4"/>
+<img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/90_Videos_Out/RJ_Covid-19_Timeline.mp4"/>
+<img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/90_Videos_Out/MG_Covid-19_Timeline.mp4"/>
+<img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/90_Videos_Out/CE_Covid-19_Timeline.mp4"/>
 <br>
