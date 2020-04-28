@@ -1,7 +1,7 @@
 <h1>Mapping in the Time of Pandemic</h1>
 <h3> Tracking the pandemic outbreak in Brazil</h3>
 <br>
-Ways to get Graphs, Maps, Gifs and videos using files availabe on /notebooks:
+Ways to get Graphs, Maps, Gifs and videos using files availabe on /notebooks:<br>
 
 1. At Terminal, having the file 'cv_util_func.py' (utility functions) at same directory, run script:
 
@@ -23,11 +23,9 @@ NOTE: Noteboks (10_... AND 30_...) and Python Script use geodata that were gener
 
 
 <h3>Datasets:</h3>
-1. Worldometers Daily Data: https://www.worldometers.info/coronavirus/
-
-2. Confirmed cases by day, using information from the news. Covid19br dataset is available at GitHub: https://github.com/wcota/covid19br, 
-
-- Raw data by city compiled from original dataset provided by Brasil.IO (https://brasil.io/dataset/covid19/caso/).
+- Worldometers Daily Data: https://www.worldometers.info/coronavirus/
+- Confirmed cases by day, using information from the news. Covid19br dataset is available at GitHub: https://github.com/wcota/covid19br
+- Raw data by city compiled from original dataset provided by Brasil.IO: https://brasil.io/dataset/covid19/caso/
 
 <h3>Thanks to: </h3>
 - Wesley Cota (https://wesleycota.com), PhD candidate - Complex Networks/Physics (Universidade Federal de Viçosa - Brazil and Universidad de Zaragoza - Spain) 
