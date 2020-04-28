@@ -34,8 +34,8 @@ NOTE: Noteboks (10_... AND 30_...) and Python Script use geodata that were gener
 
 - Alvaro Justen: https://blog.brasil.io/author/alvaro-justen.html, Brasil.IO
 
-<h3>License: Creative Commons Attribution-ShareAlike 4.0 International</h3>
-(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
+<h3>License: </h3> 
+- CC BY-SA 4.0: Creative Commons Attribution-ShareAlike 4.0 International: https://creativecommons.org/licenses/by-sa/4.0/
 
 <h3>More information: </h3>
 
