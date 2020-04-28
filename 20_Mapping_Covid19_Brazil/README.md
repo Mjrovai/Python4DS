@@ -1,8 +1,8 @@
 <h1>Mapping in the Time of Pandemic</h1>
 <h3> Tracking the pandemic outbreak in Brazil</h3>
 <br>
-Ways to get Graphs, Maps, Gifs and videos using files availabe on /notebooks:
-<br>
+<h3>Ways to get Graphs, Maps, Gifs and videos using files availabe on /notebooks:</h3>
+
 1. At Terminal, having the file 'cv_util_func.py' (utility functions) at same directory, run script:
 
 - $ python get_cv19_brazil.py
@@ -19,10 +19,9 @@ Ways to get Graphs, Maps, Gifs and videos using files availabe on /notebooks:
 NOTE: Noteboks (10_... AND 30_...) and Python Script use geodata that were generated using:
 
 - 20_Geo_Mapping_Brasil_Cities.ipynb
-<br><br>
-
 
 <h3>Datasets:</h3>
+
 - Worldometers Daily Data: https://www.worldometers.info/coronavirus/
 
 - Confirmed cases by day, using information from the news. Covid19br dataset is available at GitHub: https://github.com/wcota/covid19br
@@ -30,6 +29,7 @@ NOTE: Noteboks (10_... AND 30_...) and Python Script use geodata that were gener
 - Raw data by city compiled from original dataset provided by Brasil.IO: https://brasil.io/dataset/covid19/caso/
 
 <h3>Thanks to: </h3>
+
 - Wesley Cota (https://wesleycota.com), Universidade Federal de Viçosa, Brazil and Universidad de Zaragoza, Spain 
 
 - Alvaro Justen: https://blog.brasil.io/author/alvaro-justen.html, Brasil.IO
@@ -38,10 +38,20 @@ NOTE: Noteboks (10_... AND 30_...) and Python Script use geodata that were gener
 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 <h3>More information: </h3>
-- https://wcota.me/covid19br and 
+
+- https://wcota.me/covid19br
+
 - https://brasil.io/covid19/
 
-<h3>General Situation in Brazil:</h3>
+<h3>Content of subfolders:</h3>
+
+- /videos have short videos showing the development of Covid-19 in Brazil and main states. 
+
+- /graphs have all timeline graphs of main brazilian cities
+
+- /images have all below most updated mapsmaps 
+
+<h3>General Situation in Brazil:</h3> 
 
 <img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/graphs/cv19_TOTAL_linear_CV_Evolution_Graph_updated.png"/>
 <img src="https://github.com/Mjrovai/Python4DS/blob/master/20_Mapping_Covid19_Brazil/graphs/cv19_TOTAL_log_CV_Evolution_Graph_updated.png"/>
