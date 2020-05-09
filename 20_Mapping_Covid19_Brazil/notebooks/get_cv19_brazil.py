@@ -77,7 +77,7 @@ dt, dt_tm, dt_tm_city, dt_state, total_cases, deaths, cfr = get_brazil_cv_data(
 
 
 # Timeline of Brazil Total cases cases
-print ('\n[INFO] Plotting Covid-19 Brazil cases - See your default Browser\n')
+print ('\n[INFO] Plotting Covid-19 Brazil cases')
 
 plot_cases(dt_tm, 'TOTAL', y_scale='linear', n_0=1_000)
 plot_cases(dt_tm, 'TOTAL', y_scale='log', n_0=1_000)
@@ -90,6 +90,13 @@ for city in top_cities:
     plot_cases(dt_tm, city, y_scale='linear', n_0=100)
     plot_cases(dt_tm, city, y_scale='log', n_0=100) 
 
+    
+# Timeline New Deaths versus Previus Week    
+plot_mov_ave_deaths_last_week(dt_tm, 'TOTAL', y_scale='linear', n_0=100, mov=7, show=False, save=True)   
+
+for city in top_cities:
+    plot_mov_ave_deaths_last_week(dt_tm, city, y_scale='linear', n_0=1, mov=7, show=False, save=True)
+    
       
 # GeoData (Brasil & Municipalities)
 print ('\n[INFO] Getting Brazilian Geodata\n') 
@@ -105,6 +112,7 @@ date = datetime.datetime.today()
 cv_city, deaths_city, cv_city_pnt, deaths_city_pnt, total_cases, deaths, cfr = get_Brazil_data(dt, br_shp, br_cities)
 plt_Brasil_cities(cv_city, deaths_city, date, total_cases, deaths, cfr, br_shp, br_cities, deaths_only=False)
 plt_Brasil_cv_metrics(cv_city_pnt, deaths_city_pnt, date, total_cases, deaths, cfr, br_shp, br_cities)
+plt_Brasil_cv_metrics(cv_city_pnt, deaths_city_pnt, date, total_cases, deaths, cfr, br_shp, br_cities, metrics='deaths', n=4)
 
 # Other Pandemic metrics maps
 plt_Brasil_cv_metrics(cv_city_pnt, deaths_city_pnt, date, total_cases, deaths, cfr, br_shp, br_cities, metrics='TotalCases/1M pop', n=2 )

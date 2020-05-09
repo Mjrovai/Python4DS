@@ -28,27 +28,143 @@ from unicodedata import normalize
 Functions for getting, show and plotting CV-19 dataset
 
 '''
-def plot_cases(data, city, n_0=100, y_scale='log', mov=3, show=False, save=True):
+def plot_cases(data,
+               city,
+               n_0=100,
+               y_scale='log',
+               mov=7,
+               show=False,
+               save=True):
     date = datetime.datetime.today()
     data = data[data.city == city]
     tst = data[data.totalCases >= n_0]
-    tst['MA_3'] = tst.iloc[:,-2].rolling(window=mov).mean()
+    tst['totalCases_Mov_Ave'] = tst.iloc[:, 8].rolling(window=mov).mean()
+    tst['newCases_Mov_Ave'] = tst.iloc[:, 7].rolling(window=mov).mean()
+    tst['deaths_Mov_Ave'] = tst.iloc[:, 6].rolling(window=mov).mean()
     fig = go.Figure()
-    fig.add_trace(go.Scatter(x=tst.date, y=round(tst.totalCases), name='Total Cases'))
-    fig.add_trace(go.Scatter(x=tst.date, y=round(tst.MA_3), name='New Cases'))
-    fig.add_trace(go.Scatter(x=tst.date, y=round(tst.deaths), name='Deaths'))
+    fig.add_trace(go.Scatter(x=tst.date, y=round(tst.totalCases_Mov_Ave), name='Total Cases', line=dict(color='royalblue', width=2)))
+    fig.add_trace(go.Scatter(x=tst.date, y=round(tst.newCases_Mov_Ave), name='New Cases', line=dict(color='orange', width=2)))
+    fig.add_trace(go.Scatter(x=tst.date, y=round(tst.deaths_Mov_Ave), name='Deaths', line=dict(color='firebrick', width=2)))
     fig.update_layout(
-        title='Covid-19 Brazil ({}) - Cases over {:,} - Y-scale: {} - {}/{}/{}'.
-        format(city, n_0, y_scale, date.year, date.month, date.day),
+        title='Covid-19 Brazil ({}) - {}/{}/{}'
+        .format(city, date.year, date.month, date.day),
         xaxis_title="Day",
-        yaxis_title="# Cases",
-        yaxis_type=y_scale)
+        yaxis_title="Number of Cases",
+        yaxis_type=y_scale,
+        font=dict(size=12, color="#7f7f7f"),
+        annotations=[
+            dict(x=0,
+                 y=1.05,
+                 text='Cases over {:,} - Y-scale: {} ({}-day rolling avg.)'
+                 .format(n_0, y_scale, mov),
+                 showarrow=False,
+                 xref='paper',
+                 yref='paper',
+                 xanchor='left',
+                 yanchor='auto',
+                 xshift=0,
+                 yshift=0,
+                 font=dict(size=10, color="#F3661F")),
+            dict(x=1,
+                 y=-0.10,
+                 text="Source: Brasil.io - https://brasil.io/dataset/covid19/caso/",
+                 showarrow=False,
+                 xref='paper',
+                 yref='paper',
+                 xanchor='right',
+                 yanchor='auto',
+                 xshift=0,
+                 yshift=0,
+                 font=dict(size=8, color="#F3661F")),
+            dict(x=1,
+                 y=-0.14,
+                 text="Created by Marcelo Rovai - https://MJRoBot.org",
+                 showarrow=False,
+                 xref='paper',
+                 yref='paper',
+                 xanchor='right',
+                 yanchor='auto',
+                 xshift=0,
+                 yshift=0,
+                 font=dict(size=8, color="#F3661F"))
+        ])
+
     if save == True:
         city = city.replace('/', '-')
-        fig.write_image('../graphs/cv19_'+city+'_'+y_scale+'_CV_Evolution_Graph_updated.png')
+        fig.write_image('../graphs/cv19_' + city + '_' + y_scale +
+                        '_CV_Evolution_Graph_updated.png')
     if show == True:
         fig.show()
     
+
+def plot_mov_ave_deaths_last_week(data,
+               city,
+               n_0=100,
+               y_scale='log',
+               mov=7,
+               show=False,
+               save=True):
+    date = datetime.datetime.today()
+    data = data[data.city == city]
+    tst = data[data.deaths >= n_0]
+    tst.reset_index(drop=True, inplace = True)
+
+    tst['new_deaths'] = tst['deaths'] - tst['deaths'].shift(1)
+    tst['new_deaths_Mov_Ave'] = tst.iloc[:, -1].rolling(window=mov).mean()
+    tst['mov_ave_new_deaths_last_week'] = tst['new_deaths_Mov_Ave'] - tst['new_deaths_Mov_Ave'].shift(7)
+    fig = go.Figure()
+    fig.add_trace(go.Bar(x=tst.date, y=round(tst.new_deaths_Mov_Ave), name='New Deaths'))
+    fig.add_trace(go.Bar(x=tst.date, y=round(tst.mov_ave_new_deaths_last_week), name='New Deaths vs last week'))
+    fig.update_layout(
+        title='Brazil ({}) - New Deaths by Covid-19 versus same day previus week'
+        .format(city),
+        xaxis_title="Day",
+        yaxis_title="Number of Deaths",
+        yaxis_type=y_scale,
+        font=dict(size=12, color="#7f7f7f"),
+        annotations=[
+            dict(x=0,
+                 y=1.05,
+                 text='Deaths over {:,} - Y-scale: {} ({}-day rolling average) - {}/{}/{}'
+                 .format(n_0, y_scale, mov, date.year, date.month, date.day),
+                 showarrow=False,
+                 xref='paper',
+                 yref='paper',
+                 xanchor='left',
+                 yanchor='auto',
+                 xshift=0,
+                 yshift=0,
+                 font=dict(size=10, color="#F3661F")),
+            dict(x=1,
+                 y=-0.10,
+                 text="Source: Brasil.io - https://brasil.io/dataset/covid19/caso/",
+                 showarrow=False,
+                 xref='paper',
+                 yref='paper',
+                 xanchor='right',
+                 yanchor='auto',
+                 xshift=0,
+                 yshift=0,
+                 font=dict(size=8, color="#F3661F")),
+            dict(x=1,
+                 y=-0.14,
+                 text="Created by Marcelo Rovai - https://MJRoBot.org",
+                 showarrow=False,
+                 xref='paper',
+                 yref='paper',
+                 xanchor='right',
+                 yanchor='auto',
+                 xshift=0,
+                 yshift=0,
+                 font=dict(size=8, color="#F3661F"))
+        ])
+
+    if save == True:
+        city = city.replace('/', '-')
+        fig.write_image('../graphs/cv19_' + city + '_' + y_scale +
+                        '_CV_Mov_ave_deaths_last_week_Evolution_Graph_updated.png')
+    if show == True:
+        fig.show()
     
 
 def data_cleanup(array):
@@ -258,7 +374,7 @@ def plt_Brasil_cities(cv_city,
                  horizontalalignment='left',
                  fontsize=12,
                  color='blue')
-    plt.annotate('Data provided by https://labs.wesleycota.com/sarscov2/br/',
+    plt.annotate('Data provided by https://brasil.io/dataset/covid19/caso/',
                  xy=(0.55, .16),
                  xycoords='figure fraction',
                  horizontalalignment='left',
@@ -282,6 +398,7 @@ def plt_Brasil_cities(cv_city,
         plt.savefig(file_today, dpi=300)
         #plt.savefig(file_gif, dpi=200)
 
+
 def plt_Brasil_cv_metrics(cv_city_pnt,
                           deaths_city_pnt,
                           date,
@@ -296,6 +413,7 @@ def plt_Brasil_cv_metrics(cv_city_pnt,
                      color='orange',
                      markersize=n * cv_city_pnt[metrics],
                      alpha=.5)
+    
     if metrics == 'totalCases':
         deaths_city_pnt.plot(ax=ax,
                              color='black',
@@ -329,6 +447,12 @@ def plt_Brasil_cv_metrics(cv_city_pnt,
             .format(date.year, date.month, date.day),
             fontsize=20,
             loc='left')
+    elif metrics == 'deaths':
+        plt.title(
+            'Covid19 Accumulated Deaths per city in Brazil at {}/{}/{}'
+            .format(date.year, date.month, date.day),
+            fontsize=20,
+            loc='left')
 
     plt.axis('off')
 
@@ -346,7 +470,7 @@ def plt_Brasil_cv_metrics(cv_city_pnt,
                  horizontalalignment='left',
                  fontsize=12,
                  color='blue')
-    plt.annotate('Data provided by https://labs.wesleycota.com/sarscov2/br/',
+    plt.annotate('Data provided by https://brasil.io/dataset/covid19/caso/',
                  xy=(0.55, .14),
                  xycoords='figure fraction',
                  horizontalalignment='left',
@@ -368,6 +492,7 @@ def plt_Brasil_cv_metrics(cv_city_pnt,
         date.month) + '-' + str(date.day) + '-' + str(date.year) + '.png'
     plt.savefig(file, dpi=300)
     plt.savefig(file_today, dpi=300)
+    
 
 def get_state_info(cv_city, dt_state, br_shp, br_cities, state):
     date = datetime.datetime.today()
@@ -470,7 +595,7 @@ def plot_state_cases(state, cv_state, deaths_state, state_total_cases,
                  xy=xy_1,
                  fontsize=10,
                  color='blue')
-    plt.annotate('Data provided by https://labs.wesleycota.com/sarscov2/br/',
+    plt.annotate('Data provided by https://brasil.io/dataset/covid19/caso/',
                  xy=xy_2,
                  fontsize=10,
                  color='blue')
@@ -673,7 +798,7 @@ def create_state_gif(dates, cv_city_t, deaths_city_t, br_shp, state):
                      fontsize=10,
                      color='blue')
         plt.annotate(
-            'Data provided by https://labs.wesleycota.com/sarscov2/br/',
+            'Data provided by https://brasil.io/dataset/covid19/caso/',
             xy=xy_2,
             fontsize=10,
             color='blue')
