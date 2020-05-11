@@ -51,7 +51,11 @@ def plot_cases(data,
         xaxis_title="Day",
         yaxis_title="Number of Cases",
         yaxis_type=y_scale,
-        font=dict(size=12, color="#7f7f7f"),
+        font=dict(size=10, color="#7f7f7f"),
+        legend=dict(x=0,
+                    y=1.0,
+                    bgcolor='rgba(255, 255, 255, 0)',
+                    bordercolor='rgba(255, 255, 255, 0)'),
         annotations=[
             dict(x=0,
                  y=1.05,
@@ -64,7 +68,7 @@ def plot_cases(data,
                  yanchor='auto',
                  xshift=0,
                  yshift=0,
-                 font=dict(size=10, color="#F3661F")),
+                 font=dict(size=10, color="#7f7f7f")),
             dict(x=1,
                  y=-0.10,
                  text="Source: Brasil.io - https://brasil.io/dataset/covid19/caso/",
@@ -75,7 +79,7 @@ def plot_cases(data,
                  yanchor='auto',
                  xshift=0,
                  yshift=0,
-                 font=dict(size=8, color="#F3661F")),
+                 font=dict(size=8, color='royalblue')),
             dict(x=1,
                  y=-0.14,
                  text="Created by Marcelo Rovai - https://MJRoBot.org",
@@ -86,7 +90,7 @@ def plot_cases(data,
                  yanchor='auto',
                  xshift=0,
                  yshift=0,
-                 font=dict(size=8, color="#F3661F"))
+                 font=dict(size=8, color='royalblue'))
         ])
 
     if save == True:
@@ -95,7 +99,8 @@ def plot_cases(data,
                         '_CV_Evolution_Graph_updated.png')
     if show == True:
         fig.show()
-    
+
+# -------------------------------------------------------------------------------------    
 
 def plot_mov_ave_deaths_last_week(data,
                city,
@@ -116,12 +121,18 @@ def plot_mov_ave_deaths_last_week(data,
     fig.add_trace(go.Bar(x=tst.date, y=round(tst.new_deaths_Mov_Ave), name='New Deaths'))
     fig.add_trace(go.Bar(x=tst.date, y=round(tst.mov_ave_new_deaths_last_week), name='New Deaths vs last week'))
     fig.update_layout(
-        title='Brazil ({}) - New Deaths by Covid-19 versus same day previus week'
+        title='Brazil ({}) - New Deaths by Covid-19 versus same day previous week'
         .format(city),
         xaxis_title="Day",
         yaxis_title="Number of Deaths",
         yaxis_type=y_scale,
-        font=dict(size=12, color="#7f7f7f"),
+        font=dict(size=10, color="#7f7f7f"),
+        legend=dict(
+        x=0,
+        y=1.0,
+        bgcolor='rgba(255, 255, 255, 0)',
+        bordercolor='rgba(255, 255, 255, 0)'
+    ),
         annotations=[
             dict(x=0,
                  y=1.05,
@@ -134,7 +145,7 @@ def plot_mov_ave_deaths_last_week(data,
                  yanchor='auto',
                  xshift=0,
                  yshift=0,
-                 font=dict(size=10, color="#F3661F")),
+                 font=dict(size=10, color="#7f7f7f")),
             dict(x=1,
                  y=-0.10,
                  text="Source: Brasil.io - https://brasil.io/dataset/covid19/caso/",
@@ -145,7 +156,7 @@ def plot_mov_ave_deaths_last_week(data,
                  yanchor='auto',
                  xshift=0,
                  yshift=0,
-                 font=dict(size=8, color="#F3661F")),
+                 font=dict(size=8, color='royalblue')),
             dict(x=1,
                  y=-0.14,
                  text="Created by Marcelo Rovai - https://MJRoBot.org",
@@ -156,7 +167,7 @@ def plot_mov_ave_deaths_last_week(data,
                  yanchor='auto',
                  xshift=0,
                  yshift=0,
-                 font=dict(size=8, color="#F3661F"))
+                 font=dict(size=8, color='royalblue'))
         ])
 
     if save == True:
@@ -165,7 +176,7 @@ def plot_mov_ave_deaths_last_week(data,
                         '_CV_Mov_ave_deaths_last_week_Evolution_Graph_updated.png')
     if show == True:
         fig.show()
-    
+# -------------------------------------------------------------------------------------    
 
 def data_cleanup(array):
     L = []
